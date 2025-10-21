@@ -1,0 +1,64 @@
+Body {
+    background: black;
+    color: gold;
+    margin: 0px;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(199, 13, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(199, 13, 0);
+}
+
+.chamada {
+    background: rgb(51, 51, 51);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chama {
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categori {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria img:hover {
+    opacity: 1;
+    border: 1px solid red;
+}
+.categori h2{
+    color: rgb(199, 13, 0);
+}
